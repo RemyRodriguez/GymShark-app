@@ -1,0 +1,20 @@
+.card{
+    width: 22rem;
+}
+
+.card-link{
+    text-decoration: none;
+    color:black;
+}
+.card-title{
+    color:black;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.round-card{
+    background-color:white;
+    border-radius:50%;
+    height: 10rem;
+    width: 10rem;
+}

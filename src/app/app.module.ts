@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './Footer/footer.component';
 
 import { TopNavbarComponent } from './Header/topnavbar.component';
-import { CategoryCardComponent } from './Store/catagory.card.component';
+import { CategoryCardComponent } from './Store/category.card.component';
 
 @NgModule({
   declarations: [
