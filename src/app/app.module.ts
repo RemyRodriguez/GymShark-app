@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './Footer/footer.component';
 
 import { TopNavbarComponent } from './Header/topnavbar.component';
+import { PhotoCardComponent } from './StockPhoto/photo.card.component';
 import { CategoryCardComponent } from './Store/category.card.component';
 
 @NgModule({
@@ -12,7 +13,8 @@ import { CategoryCardComponent } from './Store/category.card.component';
     AppComponent,
     TopNavbarComponent,
     FooterComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    PhotoCardComponent
 ],
   imports: [
     BrowserModule
