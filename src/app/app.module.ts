@@ -14,7 +14,8 @@ import { HomeLayoutComponent } from './Store/home-layout.component';
 import { BottomsLeggingsLayout } from './Store/bottoms-leggings-layout.component';
 import { MainLayout } from './Store/Main-layout.component';
 import { CropTopComponent } from './Store/crop-top-layout.component';
-
+import { HttpClientModule} from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component'
 
 @NgModule({
   declarations: [
@@ -28,11 +29,13 @@ import { CropTopComponent } from './Store/crop-top-layout.component';
     HomeLayoutComponent,
     BottomsLeggingsLayout,
     MainLayout,
-    CropTopComponent
+    CropTopComponent,
+    UserInfoComponent
 ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
