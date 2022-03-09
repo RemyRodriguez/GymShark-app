@@ -35,6 +35,7 @@ import { UserInfoComponent } from './user-info/user-info.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     HttpClientModule
   ],
   providers: [],
