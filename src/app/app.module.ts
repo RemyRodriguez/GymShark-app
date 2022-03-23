@@ -15,7 +15,12 @@ import { BottomsLeggingsLayout } from './Store/bottoms-leggings-layout.component
 import { MainLayout } from './Store/Main-layout.component';
 import { CropTopComponent } from './Store/crop-top-layout.component';
 import { HttpClientModule} from '@angular/common/http';
-import { UserInfoComponent } from './user-info/user-info.component'
+import { UserInfoComponent } from './user-info/user-info.component';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
+import { AngularFireModule } from '@angular/fire/compat';
+import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 
 @NgModule({
   declarations: [
@@ -36,7 +41,9 @@ import { UserInfoComponent } from './user-info/user-info.component'
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    HttpClientModule
+    HttpClientModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
