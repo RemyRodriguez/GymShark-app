@@ -1,4 +1,3 @@
-1. Created a backend via FireBase.
-2. Created a Realtime database and populated it with my basix info.
-3. Used Angulars HTTP Client to obtain the data from the backend.
-4. Created a new component and used it to display the data obtained from the backend.
+1:Moved the content of mock data to my Realtime Database.
+2: Created a Service component that communicates with the backend and obtains the data for the programmatic components.
+3: Used the Service from Goal 2 inside the component that displays the programmatic components. 
