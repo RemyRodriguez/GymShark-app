@@ -1,3 +1,4 @@
-1:Moved the content of mock data to my Realtime Database.
-2: Created a Service component that communicates with the backend and obtains the data for the programmatic components.
-3: Used the Service from Goal 2 inside the component that displays the programmatic components. 
+1 Configured Angular Fire library.
+GOAL 2: Modified the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabase as dependency.
+GOAL 3: Reimplemented the method used for fetching your data by using the angular fire dependency from Goal 2 instead of the HTTPClient.
+GOAL 4: Deployed my Web Application and submited my URL.
