@@ -6,6 +6,7 @@ import { HomeLayoutComponent } from './Store/home-layout.component';
 import { BottomsLeggingsLayout } from './Store/bottoms-leggings-layout.component';
 import { MainLayout } from './Store/Main-layout.component';
 import { CropTopComponent } from './Store/crop-top-layout.component';
+import { AddProductComponent } from './store/add-product/add-product.component';
 
 
 
@@ -14,7 +15,9 @@ const routes:Routes  = [
   {
     path: 'crop-top', component: CropTopComponent
   },
-  
+  {
+    path: 'admin', component: AddProductComponent
+  },
   {
     path: 'bottoms-leggings', component: BottomsLeggingsLayout
   },

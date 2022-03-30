@@ -16,5 +16,7 @@ export class FrontPage{
     public getFrontPage() {
         return this.db.list<FrontPage>("products").valueChanges();
     }
-
+public addProduct(product:FrontPage) {
+    this.db.list<FrontPage>("products").push(product);
+}
 }
