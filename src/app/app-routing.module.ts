@@ -7,6 +7,7 @@ import { BottomsLeggingsLayout } from './Store/bottoms-leggings-layout.component
 import { MainLayout } from './Store/Main-layout.component';
 import { CropTopComponent } from './Store/crop-top-layout.component';
 import { AddProductComponent } from './store/add-product/add-product.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -17,6 +18,9 @@ const routes:Routes  = [
   },
   {
     path: 'admin', component: AddProductComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   },
   {
     path: 'bottoms-leggings', component: BottomsLeggingsLayout
