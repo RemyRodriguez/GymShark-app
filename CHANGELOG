@@ -1,4 +1,3 @@
-1 Configured Angular Fire library.
-GOAL 2: Modified the service from the last lab by removing HTTpClient dependency and injecting AngularFireDatabase as dependency.
-GOAL 3: Reimplemented the method used for fetching your data by using the angular fire dependency from Goal 2 instead of the HTTPClient.
-GOAL 4: Deployed my Web Application and submited my URL.
+1: Added a form for entering card/component information.
+2: Added a method to the service component (FrontPage.service) that sends data to the backend.
+3: Used the Service from Goal 2 inside the form component from GOAL1 to send the data from the form to the backend.
