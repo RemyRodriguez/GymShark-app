@@ -1,3 +1,5 @@
-1: Added a form for entering card/component information.
-2: Added a method to the service component (FrontPage.service) that sends data to the backend.
-3: Used the Service from Goal 2 inside the form component from GOAL1 to send the data from the form to the backend.
+1: Enabled the Firebase authentication.
+2: Created an authentication component.
+3: Created an Authentication Service.
+4: Connected the Authentication component with the Authentication service and displayed an appropriate message to the user.
+
